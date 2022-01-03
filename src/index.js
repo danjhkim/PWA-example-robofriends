@@ -1,25 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
-import thunkMiddleware from 'redux-thunk';
+import { createStore, compose, applyMiddleware } from 'redux';
 import { createLogger } from 'redux-logger';
+import thunk from 'redux-thunk';
+
+import reducers from './reducers';
+
 import 'tachyons';
-
-import App from './containers/App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
-import { requestRobots, searchRobots } from './reducers';
-
 import './index.css';
+import App from './containers/App';
 
 const logger = createLogger();
-
-const rootReducers = combineReducers({ requestRobots, searchRobots });
-
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
-	rootReducers,
-	applyMiddleware(thunkMiddleware, logger),
+	reducers,
+	composeEnhancers(applyMiddleware(thunk, logger)),
 );
 
 ReactDOM.render(
@@ -30,6 +26,3 @@ ReactDOM.render(
 	</React.StrictMode>,
 	document.getElementById('root'),
 );
-serviceWorkerRegistration.register();
-
-reportWebVitals();
