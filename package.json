@@ -2,7 +2,7 @@
   "name": "pwa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danjhkim.github.io/PWA-example-robofriends",
+  "homepage": "https://danjhkim.github.io/PWA-example-robofriends/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
