@@ -10,8 +10,8 @@
   "runtime~main.js": "/PWA-example-robofriends/static/js/runtime~main.1bccb4fa.js",
   "runtime~main.js.map": "/PWA-example-robofriends/static/js/runtime~main.1bccb4fa.js.map",
   "static/media/index.css": "/PWA-example-robofriends/static/media/SEGA.12a3db8b.woff",
-  "static/css/main.3f17653f.chunk.css.map": "/PWA-example-robofriends/static/css/main.3f17653f.chunk.css.map",
   "static/css/2.989a6ada.chunk.css.map": "/PWA-example-robofriends/static/css/2.989a6ada.chunk.css.map",
+  "static/css/main.3f17653f.chunk.css.map": "/PWA-example-robofriends/static/css/main.3f17653f.chunk.css.map",
   "index.html": "/PWA-example-robofriends/index.html",
   "precache-manifest.9dc09f901b519546a8d04da902a8e1ae.js": "/PWA-example-robofriends/precache-manifest.9dc09f901b519546a8d04da902a8e1ae.js",
   "service-worker.js": "/PWA-example-robofriends/service-worker.js"
