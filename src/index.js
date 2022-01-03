@@ -7,7 +7,8 @@ import { createLogger } from 'redux-logger';
 import 'tachyons';
 
 import App from './containers/App';
-import registerServiceWorker from './serviceWorkerRegistration';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import reportWebVitals from './reportWebVitals';
 import { requestRobots, searchRobots } from './reducers';
 
 import './index.css';
@@ -22,9 +23,13 @@ const store = createStore(
 );
 
 ReactDOM.render(
-	<Provider store={store}>
-		<App />
-	</Provider>,
+	<React.StrictMode>
+		<Provider store={store}>
+			<App />
+		</Provider>
+	</React.StrictMode>,
 	document.getElementById('root'),
 );
-registerServiceWorker();
+serviceWorkerRegistration.register();
+
+reportWebVitals();
