@@ -1,7 +1,7 @@
 {
   "main.css": "/PWA-example-robofriends/static/css/main.fd9a8a13.chunk.css",
-  "main.js": "/PWA-example-robofriends/static/js/main.689f73d1.chunk.js",
-  "main.js.map": "/PWA-example-robofriends/static/js/main.689f73d1.chunk.js.map",
+  "main.js": "/PWA-example-robofriends/static/js/main.2ba8e78b.chunk.js",
+  "main.js.map": "/PWA-example-robofriends/static/js/main.2ba8e78b.chunk.js.map",
   "static/js/1.aed28597.chunk.js": "/PWA-example-robofriends/static/js/1.aed28597.chunk.js",
   "static/js/1.aed28597.chunk.js.map": "/PWA-example-robofriends/static/js/1.aed28597.chunk.js.map",
   "static/css/2.989a6ada.chunk.css": "/PWA-example-robofriends/static/css/2.989a6ada.chunk.css",
@@ -13,6 +13,6 @@
   "static/css/main.fd9a8a13.chunk.css.map": "/PWA-example-robofriends/static/css/main.fd9a8a13.chunk.css.map",
   "static/css/2.989a6ada.chunk.css.map": "/PWA-example-robofriends/static/css/2.989a6ada.chunk.css.map",
   "index.html": "/PWA-example-robofriends/index.html",
-  "precache-manifest.3aa003d48dc5a7bcf1410b0a1a55e211.js": "/PWA-example-robofriends/precache-manifest.3aa003d48dc5a7bcf1410b0a1a55e211.js",
+  "precache-manifest.2be6ad16c5ecca8226c43ba1f966c701.js": "/PWA-example-robofriends/precache-manifest.2be6ad16c5ecca8226c43ba1f966c701.js",
   "service-worker.js": "/PWA-example-robofriends/service-worker.js"
 }
