@@ -5,10 +5,16 @@
 	font-style: normal;
 	font-weight: normal;
 	src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+	font-display: swap;
 }
 
 h1 {
 	font-family: 'SEGA LOGO FONT';
 	font-weight: 200;
 	color: #0ccac4;
+}
+
+.robotpics {
+	max-height: 200px;
+	max-width: 200px;
 }
