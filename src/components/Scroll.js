@@ -13,4 +13,4 @@ const Scroll = props => {
 	);
 };
 
-export default Scroll;
+export default React.memo(Scroll);

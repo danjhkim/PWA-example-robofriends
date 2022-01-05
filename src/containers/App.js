@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary';
 import Header from '../components/Header';
-
 import { setSearchField, requestRobots } from '../actions';
+
+const CardList = lazy(() => import('../components/CardList'));
 
 const App = () => {
 	const dispatch = useDispatch();
@@ -15,7 +15,7 @@ const App = () => {
 	var controller = new AbortController();
 	var signal = controller.signal;
 
-	signal.addEventListener('abort', function () {
+	signal.addEventListener('abort', function() {
 		console.log('Request aborted');
 	});
 
@@ -40,7 +40,9 @@ const App = () => {
 			<SearchBox searchChange={onSearchChange} />
 			<Scroll>
 				<ErrorBoundary>
-					<CardList robots={filteredRobots} />
+					<Suspense fallback={<h1>Loading...</h1>}>
+						<CardList robots={filteredRobots} />
+					</Suspense>
 				</ErrorBoundary>
 			</Scroll>
 		</div>
