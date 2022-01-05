@@ -1,7 +1,7 @@
 {
-  "main.css": "/PWA-example-robofriends/static/css/main.3f17653f.chunk.css",
-  "main.js": "/PWA-example-robofriends/static/js/main.e6f39188.chunk.js",
-  "main.js.map": "/PWA-example-robofriends/static/js/main.e6f39188.chunk.js.map",
+  "main.css": "/PWA-example-robofriends/static/css/main.fd9a8a13.chunk.css",
+  "main.js": "/PWA-example-robofriends/static/js/main.689f73d1.chunk.js",
+  "main.js.map": "/PWA-example-robofriends/static/js/main.689f73d1.chunk.js.map",
   "static/js/1.aed28597.chunk.js": "/PWA-example-robofriends/static/js/1.aed28597.chunk.js",
   "static/js/1.aed28597.chunk.js.map": "/PWA-example-robofriends/static/js/1.aed28597.chunk.js.map",
   "static/css/2.989a6ada.chunk.css": "/PWA-example-robofriends/static/css/2.989a6ada.chunk.css",
@@ -10,9 +10,9 @@
   "runtime~main.js": "/PWA-example-robofriends/static/js/runtime~main.1bccb4fa.js",
   "runtime~main.js.map": "/PWA-example-robofriends/static/js/runtime~main.1bccb4fa.js.map",
   "static/media/index.css": "/PWA-example-robofriends/static/media/SEGA.12a3db8b.woff",
-  "static/css/main.3f17653f.chunk.css.map": "/PWA-example-robofriends/static/css/main.3f17653f.chunk.css.map",
+  "static/css/main.fd9a8a13.chunk.css.map": "/PWA-example-robofriends/static/css/main.fd9a8a13.chunk.css.map",
   "static/css/2.989a6ada.chunk.css.map": "/PWA-example-robofriends/static/css/2.989a6ada.chunk.css.map",
   "index.html": "/PWA-example-robofriends/index.html",
-  "precache-manifest.9dc09f901b519546a8d04da902a8e1ae.js": "/PWA-example-robofriends/precache-manifest.9dc09f901b519546a8d04da902a8e1ae.js",
+  "precache-manifest.3aa003d48dc5a7bcf1410b0a1a55e211.js": "/PWA-example-robofriends/precache-manifest.3aa003d48dc5a7bcf1410b0a1a55e211.js",
   "service-worker.js": "/PWA-example-robofriends/service-worker.js"
 }
