@@ -1,6 +1,8 @@
 {
 	"short_name": "Robots",
 	"name": "Robots and Friends",
+	"id": "/PWA-example-robofriends/",
+	"start_url": "/PWA-example-robofriends/",
 	"icons": [
 		{
 			"src": "favicon.ico",
